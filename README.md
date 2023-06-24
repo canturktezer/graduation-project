@@ -21,3 +21,12 @@ The Translation and Interpretation System incorporates the following technologie
 JavaScript: The back-end of the system is developed using JavaScript.
 
 Google Cloud: The project heavily relies on Google Cloud's translation API technology for seamless and accurate translations.
+
+Note: There was translate folder in src file but i deleted it. To utilize the translation service, you will need to provide the necessary credentials. Please follow these steps:
+
+1. Create a service account in the Google Cloud Console.
+2. Generate a JSON key file for the service account.
+3. Rename the JSON key file to 'google.json'.
+4. Place the 'google.json' file in the 'src/translate' directory.
+
+Please ensure that the 'google.json' file is kept secure and not included in the version control of this project. It contains sensitive credentials required for accessing the translation service.
